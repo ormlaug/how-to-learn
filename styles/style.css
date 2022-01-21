@@ -62,7 +62,7 @@
   position: absolute;
   right: 0;
   top: 64px;
-  color: #2f80ed;
+  background-color: #2f80ed;
 }
 
 /* и элемента с модификатором вида ключ-значение */
