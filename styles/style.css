@@ -60,7 +60,7 @@
   height: 568px;
   width: 568px;
   position: absolute;
-  margin-left: auto;
+  right: 0;
   top: 64px;
   color: #2f80ed;
 }
