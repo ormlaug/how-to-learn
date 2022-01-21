@@ -64,6 +64,7 @@
   right: 0;
   top: 64px;
   background-color: #2f80ed;
+  z-index: 1;
 }
 
 /* и элемента с модификатором вида ключ-значение */
