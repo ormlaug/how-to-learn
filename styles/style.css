@@ -32,9 +32,8 @@
 }
 
 .header__title {
-  margin: 0 auto;
-  position: absolute;
-  left: 64px;
+  align-self: center;
+  margin-left: 64px;
   width: 730px;
   z-index: 1;
   line-height: 96px;
