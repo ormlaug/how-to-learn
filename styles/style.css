@@ -283,13 +283,20 @@
 }
 
 .footer__columns {
-  display: flex;
-  flex-direction: row;
+  margin: auto;
+  padding-top: 60px;
+  padding-bottom: 40px;
   width: 90%;
-  margin: 60px auto 40px;
+  display: flex;
 }
 
 .footer__column_content_copyright {
   flex-basis: 711px;
-  flex-direction: column;
+
+}
+
+.logo_place_footer {
+  height: 35px;
+  width: 183px;
+  
 }
