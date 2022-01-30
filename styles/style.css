@@ -33,7 +33,7 @@
 .header__title {
   align-self: center;
   margin: 0 64px 0;
-  width: 730px;
+  max-width: 730px;
   z-index: 3;
   line-height: 96px;
   font-size: 102px;
@@ -41,6 +41,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   width: 388px;
   left: 64px;
@@ -56,6 +57,7 @@
 }
 
 .header__main-illustration {
+  object-fit: contain;
   position: absolute;
   right: 0;
   bottom: 0;
@@ -112,7 +114,7 @@
   margin-top: 0;
 }
 
-.two__columns__span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -168,7 +170,7 @@
 }
 
 .feynman {
-  height: 890px;
+  min-height: 890px;
   background-color: #f2f2f2;
   position: relative;
   display: flex;
@@ -185,7 +187,7 @@
   z-index: 1;
 }
 
-.feynman_subtitle {
+.feynman__subtitle {
   margin: 0 auto;
   text-align: center;
   line-height: 51px;
@@ -196,6 +198,7 @@
 
 .feynman__link {
   position: absolute;
+  text-decoration: none;
   top: 50%;
   right: 48px;
   line-height: 51px;
@@ -214,29 +217,18 @@
 
 .kaufman {
   background-color: #1f1f1f;
-  color: white;
   position: relative;
   overflow: hidden;
   display: grid;
 }
 
 .section-title_theme_dark {
-  margin: 90px auto 20px;
-  width: 60%;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
   z-index: 1;
+  color: white;
 }
 
 .section-subtitle_theme_dark {
-  text-align: center;
-  margin: 0 auto;
-  width: 60%;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
+  color: white;
   z-index: 1;
 }
 
@@ -262,6 +254,7 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
+  color: white;
 }
 
 .table__text_theme_dark {
@@ -270,9 +263,11 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+  color: white;
 }
 
 .kaufman__triangle {
+  background-image: url(../images/kaufman-triangle.svg);
   height: 877px;
   width: 877px;
   position: absolute;
@@ -285,10 +280,10 @@
   background-color: #1f1f1f;
   color: white;
   min-height: 350px;
+  display: flex;
 }
 
 .footer__columns {
-  margin: auto;
   padding-top: 60px;
   padding-bottom: 40px;
   width: 90%;
@@ -343,7 +338,7 @@
   margin-left: auto;
 }
 
-.social-icon {
+.footer__social-icon {
   margin-right: 10px;
   height: 16px;
   width: 16px;
