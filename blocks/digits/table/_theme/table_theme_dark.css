@@ -1,10 +1,11 @@
-.table {
+.table_theme_dark {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   padding: 0;
   justify-content: space-between;
   width: 1100px;
   list-style: none;
+  z-index: 1;
 }
