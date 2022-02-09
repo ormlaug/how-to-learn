@@ -2,9 +2,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-  margin-bottom: 100px;
   padding: 0;
-  gap: 100px;
+  row-gap: 0;
+  column-gap: 100px;
   width: 920px;
   list-style: none;
 }
