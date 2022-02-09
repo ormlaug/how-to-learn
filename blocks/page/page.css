@@ -11,10 +11,6 @@
   animation: rotation 20s linear infinite;
 }
 
-@iframe {
-  border: none;
-}
-
 .page {
   min-width: 1100px;
   max-width: 1600px;
