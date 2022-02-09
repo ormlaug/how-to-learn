@@ -1,6 +1,6 @@
 .two-columns {
   display: flex;
-  margin: 100px auto;
+  margin: auto;
   flex-direction: row;
   justify-content: space-between;
   width: 80%;
