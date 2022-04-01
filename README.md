@@ -10,4 +10,6 @@
 * организация элементов по БЭМ
 * использование псевдо-элементов
 
+**Ссылка на GitHub Pages:**
 
+https://ormlaug.github.io/how-to-learn/
